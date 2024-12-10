@@ -1,0 +1,52 @@
+#root {
+  width: 550px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header-container{
+  background-color: #F55A5A;
+  width: 550px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+
+.page-title{
+  font-weight: medium;
+  font-size: 14.6px;
+}
+
+article{
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 470px;
+    height: 168px;
+    margin: 50px auto;
+}
+.article-details{
+    line-height: 1.3;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.location-image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.map{
+  display: flex;
+    align-items: center;
+    gap: 10px;
+}
